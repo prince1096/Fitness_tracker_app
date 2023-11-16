@@ -1,0 +1,45 @@
+.sidenav {
+  display: flex;
+  flex-direction: column;
+}
+
+.active {
+  text-decoration: none;
+  color: red;
+}
+
+.inactive {
+  text-decoration: none;
+  color: black;
+}
+
+/* YourSidebar.module.css */
+
+.sidenav {
+  /* width: 250px; */
+  height: 100vh;
+  background-color: #333;
+  color: #fff;
+}
+
+.navItem {
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+.navItem a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.activeLink {
+  background-color: #555;
+}
+
+.inactiveLink {
+  background-color: #333;
+}
+
+.githubLink {
+  background-color: #0275d8;
+}

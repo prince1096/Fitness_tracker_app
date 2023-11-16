@@ -1,0 +1,119 @@
+/* Style the container */
+.container {
+    max-width: 50rem;
+    margin: 3.5rem auto;
+    padding: 1.2rem;
+    border: 1px solid #ccc;
+    border-radius: 0.4rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.container>h2{
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+}
+/* Style the form */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Style form groups (label + input) */
+.form-group {
+    margin-bottom: 15px;
+    margin-right: 22px;
+}
+
+label {
+    font-weight: bold;
+    color: white;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    background-color: #565656; /* Dark background for text inputs */
+    color: white; /* Text color for text inputs */
+}
+
+/* Style the submit button */
+button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Hover effect on the submit button */
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.close_icon{
+    color: white;
+    right: 1rem;
+    position: absolute;
+    cursor: pointer;
+}
+.exercise_modal_btn{
+    background-color: #007bff;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    border: 1px solid black;
+}
+.exercise_modal_btn:hover{
+   background-color: #0056b3;
+   cursor: pointer;
+}
+.exercise_container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    width: 100%;
+}
+.exercise_card_container{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.exercise_card{
+    width: 300px;
+    height: 240px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.4rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    color: black;
+}
+.exercise_latest_data_container{
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+span{
+    display: -webkit-box;
+    max-width: 300px;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
